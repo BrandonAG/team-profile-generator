@@ -4,7 +4,7 @@ test('Create Empleyee object', () => {
     // Create a new Engineer with name, id, email, and github
     const Jack = new Engineer("Jack", 3, "jack@mail.com", "jack");
   
-    // Check if name and email are strings
+    // Check if name email, and github are strings
     expect(Jack.name).toEqual(expect.any(String));
     expect(Jack.email).toEqual(expect.any(String));
     expect(Jack.github).toEqual(expect.any(String));
